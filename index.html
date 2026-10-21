@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/gif" href="heartwalk.gif">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cigar Heart Association - Home</title>
+</head>
+<body>
+
+    <!-- Main Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+                <img src="69dbd027bd92e30c4e430e3f39fb51bf.gif" class="navbar-logo" alt="CGA">
+                <span class="fs-4 fw-bold">CARDIAC CIGAR ASSOCIATION</span>
+            </a>
+
+            <!-- Toggle Button for Side Drawer / Offcanvas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarDarkDrawer" aria-controls="navbarDarkDrawer" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Offcanvas Side Drawer -->
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="navbarDarkDrawer" aria-labelledby="navbarDarkDrawerLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="navbarDarkDrawerLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tobacco.html">Tobacco Health Effects</a>
+                        </li>
+                        
+                        <!-- Dropdown Menu -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Cardiac_physiology" target="_blank">Healthy Hearts</a></li>
+                                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Cardiovascular_disease" target="_blank">Unhealthy Hearts</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Cigarette" target="_blank">More on Cigarettes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="container my-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+                <h1 class="display-5 fw-bold mb-4">Welcome to CGA</h1>
+                <p class="lead bg-dark bg-opacity-50 p-4 rounded-3 border border-secondary">
+                    This is a test site that would serve as an informational outlet for the cons of smoking.
+                </p>
+            </div>
+        </div>
+
+        <!-- Single-Slide Gallery Scroller -->
+        <div class="mt-5">
+            <h3 class="mb-3 text-center">Gallery</h3>
+            
+            <div class="single-slide-carousel">
+                <button class="scroller-arrow left" id="prevBtn" aria-label="Previous Slide">
+                    <svg viewBox="0 0 16 16" fill="currentColor" width="20" height="20">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                    </svg>
+                </button>
+
+                <div class="scroller-track" id="scrollerTrack">
+                    <div class="scroller-page">
+                        <div class="slot-content">
+                            <img src="69dbd027bd92e30c4e430e3f39fb51bf.gif" alt="Witheredness" class="carousel-img mb-2" style="max-height: 120px; width: auto;">
+                            <h4>Witheredness</h4>
+                            <p class="mb-0">Heart looks withered from smoking</p>
+                        </div>
+                    </div>
+                    <div class="scroller-page">
+                        <div class="slot-content">
+                            <img src="heartwalk.gif" alt="Tiredness" class="carousel-img mb-2" style="max-height: 120px; width: auto;">
+                            <h4>Tiredness</h4>
+                            <p class="mb-0">Tired Heart from all that haze</p>
+                        </div>
+                    </div>
+                    <div class="scroller-page">
+                        <div class="slot-content">
+                            <img src="lung.png" alt="Lung Destruction" class="carousel-img mb-2" style="max-height: 120px; width: auto;">
+                            <h4>Lung Destruction</h4>
+                            <p class="mb-0">Withered Charcoal-like Lungs</p>
+                        </div>
+                    </div>
+                    <div class="scroller-page">
+                        <div class="slot-content">
+                            <img src="convert.c1be8689.gif" alt="Skeleton" class="carousel-img mb-2" style="max-height: 120px; width: auto;">
+                            <h4>You look cool but at what cost?</h4>
+                            <p class="mb-0">Skeleton smoking a fat haze</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="scroller-arrow right" id="nextBtn" aria-label="Next Slide">
+                    <svg viewBox="0 0 16 16" fill="currentColor" width="20" height="20">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="scroller-indicators" id="indicators">
+                <button class="dot active" data-index="0" aria-label="Go to slide 1"></button>
+                <button class="dot" data-index="1" aria-label="Go to slide 2"></button>
+                <button class="dot" data-index="2" aria-label="Go to slide 3"></button>
+                <button class="dot" data-index="3" aria-label="Go to slide 4"></button>
+            </div>
+
+            <!-- Second Page -->
+            <div class="text-center mt-4">
+                <a href="tobacco.html" class="btn btn-danger btn-lg px-4 py-2 fw-bold shadow">
+                    Learn More About Tobacco Health Effects
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white-50 py-4 mt-5 border-top border-secondary">
+        <div class="container">
+            <p class="mb-0">Colle assignment | ILIA 1</p>
+        </div>
+    </footer>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
